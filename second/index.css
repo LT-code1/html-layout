@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 25px;
+  }
+  
+  
+  .container-one {
+    width: 100%;                        /*1 width 100% of total*/
+    height: 30%;                        /*1 height 30%of total*/
+    border: 5px solid black;          /*border 5 pixels wide*/
+    padding: 10px;                      /*10 px padding all sides*/
+    box-sizing: border-box ;            /*Include padding and border in the element's total width and height:*/
+  }                                     /*without it the right border drops off*/
+  
+  .square-one {
+    height: 75%;                      /*height 70% of parent*/
+    width: 4%;                        /*width  4%  of parent*/
+    background-color: blueviolet;   
+   display: inline-block;            /*Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values*/
+  }
+  .square-two {
+    height: 90%;                  /*90% of parent 1*/
+    width: 25%;                   /*25% of parent 1*/
+    display: inline-block;
+    background-color: forestgreen;
+    margin: 0 50px;               /*top and bottom margins are 0px, right left are 50px*/
+  }
+  .circle-one {
+    height: 200px;
+    width: 200px;                 /*have to be same to get circle*/
+    border-radius: 50%;          /*property defines the radius of the element's corners*/
+    background-color: skyblue;
+    display: inline-block;
+  }
+  
+  .container-two {
+    width: 100%;                   /*1 width 100% of total*/
+    border: 5px dotted black;    /**/
+    padding: 50px;
+    box-sizing: border-box ;       /*Include padding and border in the element's total width and height:*/
+    margin-top: 25px;              /*property sets the top margin of an element. scoots it down from previous box*/
+  }
+  
+  /* #example2 {
+    box-shadow: 5px 10px #888888;
+  } */
+  .box-shadow {
+    width: 100%;
+    height: 200px;
+    background-color: lemonchiffon;
+    box-shadow: 2px 2px 2px 5px rgba(0,0,0,0.75); /*hoffset voffset blur size   of shadows*/
+    
+  }
+  
+  .container-three {
+    width: 50%;                           /* width 50% of total*/
+    border: 1px solid #ccc;             /*border 1 pixels wide*/
+    background-color: white;
+    padding: 100px;                       /*padding all 4 sides*/
+    box-sizing: border-box ;              /*Include padding and border in the element's total width and height:*/
+    margin: 25px auto;                     /*property sets the top margin of an element. scoots it down from previous box without auto it doesnt center justify object*/
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);  /*hoffset voffset blur size   of shadows*/
+  }
+  
+  .container-three h1 {
+    width: 100%;                        /*100% of parent*/
+    text-align: center;                 /*property specifies the horizontal alignment of text in an element.*/
+    color: navy;
+    letter-spacing: 10px;                /*property increases or decreases the space between characters in a text.*/
+  }

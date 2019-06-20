@@ -1,0 +1,46 @@
+
+
+ 
+
+  body {                       /*colors the side strips minus header main and footer*/
+    margin: 0;
+    background-color: #D8D8D8;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .header {
+    width: 100%;
+    height: 20vh;
+    background-color: #444444;
+  }
+  
+  .main-content {
+    background-color: #EFEFEF;
+    margin: 0 auto;         /* has to have auto or only 1 side has margin */
+    width: 75%;
+    height: 70vh;
+  }
+  
+  .footer { 
+    background-color: #222222;
+    margin: 0 auto ;        /*has to have auto or it doesnt center footer*/
+    width: 75%;             /*has same width as main*/
+    height: 10vh;           /*header has 20, main has70,footer has 10*/
+  }
+
+
+  /* body {
+    background-color: black;
+    background-image:
+      linear-gradient(45deg, #ccc 25%, transparent 25%), 
+      linear-gradient(135deg, #ccc 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #ccc 75%),
+      linear-gradient(135deg, transparent 75%, #ccc 75%);
+    background-size:25px 25px; /* Must be a square */
+    background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px; /* Must be half of one side of the square */
+} */
+
+ /* body{
+     background-color: black;
+ } */
